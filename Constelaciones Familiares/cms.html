@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | Amor Escobio Suárez</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="admin-page">
+    <header class="admin-topbar">
+      <a class="brand" href="index.html" aria-label="Volver a la landing">
+        <span class="brand-mark">A</span>
+        <span>
+          <strong>Amor Escobio Suárez</strong>
+          <small>Admin</small>
+        </span>
+      </a>
+      <div class="admin-actions">
+        <button class="button secondary" type="button" data-logout hidden>Cerrar sesión</button>
+        <a class="button secondary" href="index.html#curso">Ver landing</a>
+      </div>
+    </header>
+
+    <main class="admin-shell login-shell" data-login-panel>
+      <section class="admin-hero" aria-labelledby="login-title">
+        <p class="eyebrow">Acceso privado</p>
+        <h1 id="login-title">Admin</h1>
+      </section>
+
+      <form class="admin-form login-form" id="login-form">
+        <label>
+          Usuario
+          <input type="text" name="username" autocomplete="username" required />
+        </label>
+        <label>
+          Contraseña
+          <input type="password" name="password" autocomplete="current-password" required />
+        </label>
+        <button class="button primary" type="submit">Entrar</button>
+        <p class="status" data-login-status aria-live="polite"></p>
+      </form>
+    </main>
+
+    <main class="admin-shell" data-admin-content hidden>
+      <section class="admin-hero" aria-labelledby="admin-title">
+        <p class="eyebrow">Gestión de contenido</p>
+        <h1 id="admin-title">Admin de cursos</h1>
+      </section>
+
+      <form class="admin-form" id="cms-form">
+        <label>
+          Texto destacado del hero
+          <input type="text" name="heroText" required />
+        </label>
+
+        <label>
+          Título del curso
+          <input type="text" name="title" required />
+        </label>
+
+        <label>
+          Descripción
+          <textarea name="description" rows="4" required></textarea>
+        </label>
+
+        <div class="field-row">
+          <label>
+            Fecha de comienzo
+            <input type="text" name="date" required />
+          </label>
+          <label>
+            Lugar
+            <input type="text" name="location" required />
+          </label>
+          <label>
+            Modalidad
+            <input type="text" name="modality" required />
+          </label>
+        </div>
+
+        <div class="field-row">
+          <label>
+            Texto del botón
+            <input type="text" name="ctaText" required />
+          </label>
+          <label>
+            Enlace del botón
+            <input type="url" name="ctaHref" required />
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button class="button primary" type="submit">Guardar cambios</button>
+          <button class="button secondary" type="button" data-reset-content>Restaurar</button>
+        </div>
+        <p class="status" aria-live="polite"></p>
+      </form>
+
+      <section class="admin-panel" aria-labelledby="portable-title">
+        <div>
+          <p class="eyebrow">Portabilidad</p>
+          <h2 id="portable-title">Exportar o importar</h2>
+        </div>
+        <textarea class="json-box" data-json-box rows="8" spellcheck="false"></textarea>
+        <div class="form-actions">
+          <button class="button secondary" type="button" data-export-content>Exportar JSON</button>
+          <button class="button primary" type="button" data-import-content>Importar JSON</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="content.js"></script>
+    <script src="cms.js"></script>
+  </body>
+</html>
