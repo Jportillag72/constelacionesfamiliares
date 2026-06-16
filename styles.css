@@ -194,8 +194,8 @@ a {
   inset: 0;
   content: "";
   background:
-    linear-gradient(90deg, rgba(35, 30, 27, 0.82) 0%, rgba(35, 30, 27, 0.55) 44%, rgba(35, 30, 27, 0.18) 100%),
-    linear-gradient(0deg, rgba(35, 30, 27, 0.78) 0%, rgba(35, 30, 27, 0.08) 48%);
+    linear-gradient(90deg, rgba(35, 30, 27, 0.66) 0%, rgba(35, 30, 27, 0.4) 44%, rgba(35, 30, 27, 0.08) 100%),
+    linear-gradient(0deg, rgba(35, 30, 27, 0.48) 0%, rgba(35, 30, 27, 0.03) 48%);
 }
 
 .hero-media img {
