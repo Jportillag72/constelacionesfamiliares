@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-label="Mesa de formación con cuadernos">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf6"/>
+      <stop offset="0.55" stop-color="#dfd6ca"/>
+      <stop offset="1" stop-color="#c79b88"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8d6a56"/>
+      <stop offset="1" stop-color="#b99074"/>
+    </linearGradient>
+  </defs>
+  <rect width="1536" height="1024" fill="url(#bg)"/>
+  <ellipse cx="770" cy="590" rx="650" ry="250" fill="#fffaf6" opacity="0.48"/>
+  <rect x="145" y="360" width="1246" height="470" rx="46" fill="url(#table)"/>
+  <g transform="rotate(-8 500 530)">
+    <rect x="318" y="336" width="410" height="520" rx="24" fill="#f7efe8"/>
+    <rect x="348" y="394" width="350" height="20" rx="10" fill="#768876" opacity="0.35"/>
+    <rect x="348" y="455" width="310" height="16" rx="8" fill="#6f6259" opacity="0.22"/>
+    <rect x="348" y="506" width="340" height="16" rx="8" fill="#6f6259" opacity="0.22"/>
+    <rect x="348" y="557" width="270" height="16" rx="8" fill="#6f6259" opacity="0.22"/>
+  </g>
+  <g transform="rotate(9 940 540)">
+    <rect x="826" y="330" width="390" height="500" rx="24" fill="#fdf8f2"/>
+    <rect x="858" y="392" width="316" height="18" rx="9" fill="#b8674a" opacity="0.36"/>
+    <rect x="858" y="455" width="286" height="15" rx="8" fill="#6f6259" opacity="0.2"/>
+    <rect x="858" y="505" width="310" height="15" rx="8" fill="#6f6259" opacity="0.2"/>
+  </g>
+  <g fill="#4e624f" opacity="0.95">
+    <rect x="698" y="470" width="34" height="360" rx="17" transform="rotate(18 715 650)"/>
+    <rect x="760" y="430" width="28" height="310" rx="14" transform="rotate(-22 774 585)"/>
+  </g>
+  <g fill="#fffaf6">
+    <circle cx="1180" cy="520" r="68" opacity="0.88"/>
+    <circle cx="1180" cy="520" r="42" fill="#d8a7a0" opacity="0.5"/>
+    <circle cx="286" cy="600" r="64" opacity="0.9"/>
+    <circle cx="286" cy="600" r="38" fill="#768876" opacity="0.42"/>
+  </g>
+  <path d="M180 780c210 90 405 128 585 116 240-16 398-118 595-104" fill="none" stroke="#fffaf6" stroke-width="34" stroke-linecap="round" opacity="0.28"/>
+</svg>
